@@ -5,7 +5,7 @@
 
 
 <picture>
-  <source media="(min-width: 900px)" srcset="https://github.com/user-attachments/assets/8eca5373-9266-4f62-a643-b22e7c5b25b9">
+  <source media="(min-width: 750px)" srcset="https://github.com/user-attachments/assets/8eca5373-9266-4f62-a643-b22e7c5b25b9">
   <img src="https://github.com/user-attachments/assets/02becdc3-23ae-4cfd-9b52-7d1bf8a27ef2" alt="pac-man scene">
 </picture>
 
