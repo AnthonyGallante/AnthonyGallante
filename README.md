@@ -17,6 +17,8 @@
 <br>
 <br>
 
+[![Goodreads](https://img.shields.io/badge/Goodreads-Profile-E4B258?style=for-the-badge&logo=goodreads&logoColor=white)](https://www.goodreads.com/user/show/140019807-anthony-gallante)
+
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
