@@ -5,15 +5,22 @@ on:
     - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:          # also runnable manually from the Actions tab
 
+concurrency:
+  group: goodreads-shelves    # prevent two runs colliding on the same branch
+  cancel-in-progress: true
+
 jobs:
   update-goodreads:
     runs-on: ubuntu-latest
     permissions:
-      contents: write         # needed to push the README commit
+      contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # full history so rebase has context
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,13 +30,13 @@ jobs:
       - name: Fetch shelves and update README
         run: python scripts/update_goodreads.py
 
-      - name: Commit if anything changed
+      - name: Commit and push if anything changed
         run: |
           git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git diff --quiet && echo "No changes." || {
             git add README.md
             git commit -m "chore: refresh GoodReads shelves [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin main
           }
