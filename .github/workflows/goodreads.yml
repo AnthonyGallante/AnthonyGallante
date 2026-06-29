@@ -27,6 +27,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git diff --quiet && echo "No changes." || {
             git add README.md
             git commit -m "chore: refresh GoodReads shelves [skip ci]"
