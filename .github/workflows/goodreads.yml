@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: goodreads-shelves
-  cancel-in-progress: false   # queue runs instead of cancelling; avoids mid-push cancellation
+  cancel-in-progress: false
 
 jobs:
   update-goodreads:
@@ -35,7 +35,13 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet && echo "No changes." || {
+          if ! git diff --cached --quiet; then
             git commit -m "chore: refresh GoodReads shelves [skip ci]"
-            git push origin main || (git pull --rebase origin main && git push origin main)
-          }
+            if ! git push origin main; then
+              echo "Push rejected — rebasing on remote and retrying..."
+              git pull --rebase origin main
+              git push origin main
+            fi
+          else
+            echo "No changes to commit."
+          fi
