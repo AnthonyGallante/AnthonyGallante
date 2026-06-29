@@ -46,17 +46,12 @@ def parse_items(xml_bytes, sort_by_read_date=False):
         raw   = item.findtext("title", "").strip()
         # GoodReads occasionally embeds author in title: "Title\n  by Author"
         title = raw.split("\n")[0].strip()
-        
-        # Grab the cover image (prefer large if available)
-        cover = item.findtext("book_large_image_url") or item.findtext("book_image_url") or ""
-
         books.append({
             "title":   title,
             "author":  item.findtext("author_name", "Unknown").strip(),
             "link":    item.findtext("link", "").strip(),
             "rating":  to_stars(item.findtext("user_rating", "0")),
             "read_at": item.findtext("user_read_at", "").strip(),
-            "cover":   cover.strip()
         })
     if sort_by_read_date:
         books.sort(key=lambda b: parse_date(b["read_at"]), reverse=True)
@@ -68,20 +63,17 @@ def parse_items(xml_bytes, sort_by_read_date=False):
 def render_currently_reading(books):
     if not books:
         return "_Nothing on the shelf right now._\n"
-    rows = ["| Cover | Book | Author |", "| ----- | ---- | ------ |"]
+    rows = ["| Book | Author |", "| ---- | ------ |"]
     for b in books:
-        # Constrain the image size using HTML so it doesn't break the markdown table
-        cover_img = f'<img src="{b["cover"]}" width="70">' if b["cover"] else ""
-        rows.append(f"| {cover_img} | [{b['title']}]({b['link']}) | {b['author']} |")
+        rows.append(f"| [{b['title']}]({b['link']}) | {b['author']} |")
     return "\n".join(rows) + "\n"
 
 def render_recently_finished(books):
     if not books:
         return "_No books logged yet._\n"
-    rows = ["| Cover | Book | Author | Rating |", "| ----- | ---- | ------ | ------ |"]
+    rows = ["| Book | Author | Rating |", "| ---- | ------ | ------ |"]
     for b in books:
-        cover_img = f'<img src="{b["cover"]}" width="70">' if b["cover"] else ""
-        rows.append(f"| {cover_img} | [{b['title']}]({b['link']}) | {b['author']} | {b['rating']} |")
+        rows.append(f"| [{b['title']}]({b['link']}) | {b['author']} | {b['rating']} |")
     return "\n".join(rows) + "\n"
 
 
@@ -91,8 +83,8 @@ def patch_readme(marker, content):
     with open(README_PATH, encoding="utf-8") as f:
         text = f.read()
 
-    start   = f""
-    end     = f""
+    start   = f"<!-- {marker}:START -->"
+    end     = f"<!-- {marker}:END -->"
     pattern = re.compile(
         rf"{re.escape(start)}.*?{re.escape(end)}", re.DOTALL
     )
