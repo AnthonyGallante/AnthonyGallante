@@ -20,12 +20,18 @@
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
-Loading...
-
+| Book | Author |
+| ---- | ------ |
+| [Demystifying Climate Models: A Users Guide to Earth System Models (Earth Systems Data and Models Book 2)](https://www.goodreads.com/review/show/8196745202?utm_medium=api&utm_source=rss) | Andrew Gettelman |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
 <!-- GOODREADS-READ:START -->
-Loading...
-
+| Book | Author | Rating |
+| ---- | ------ | ------ |
+| [The Hot Hand: The Mystery and Science of Streaks](https://www.goodreads.com/review/show/5169269001?utm_medium=api&utm_source=rss) | Ben  Cohen | — |
+| [The Chess Memory Palace](https://www.goodreads.com/review/show/6503473178?utm_medium=api&utm_source=rss) | John  Holden | — |
+| [Twenty Years After (Musketeers Trilogy #2)](https://www.goodreads.com/review/show/8033149618?utm_medium=api&utm_source=rss) | Alexandre Dumas | — |
+| [Uncertainty in Games (Playful Thinking)](https://www.goodreads.com/review/show/6048216206?utm_medium=api&utm_source=rss) | Greg Costikyan | — |
+| [Standard Deviations: Flawed Assumptions, Tortured Data, and Other Ways to Lie with Statistics](https://www.goodreads.com/review/show/4221093319?utm_medium=api&utm_source=rss) | Gary Smith | — |
 <!-- GOODREADS-READ:END -->
