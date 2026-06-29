@@ -18,9 +18,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,17 +28,7 @@ jobs:
         run: python scripts/update_goodreads.py
 
       - name: Commit and push if anything changed
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh GoodReads shelves [skip ci]"
-            if ! git push origin main; then
-              echo "Push rejected — rebasing on remote and retrying..."
-              git pull --rebase origin main
-              git push origin main
-            fi
-          else
-            echo "No changes to commit."
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh GoodReads shelves [skip ci]"
+          file_pattern: README.md
