@@ -30,13 +30,13 @@ jobs:
       - name: Fetch shelves and update README
         run: python scripts/update_goodreads.py
 
-      - name: Commit and push if anything changed
+      - name: Commit if anything changed
         run: |
           git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet && echo "No changes." || {
             git add README.md
             git commit -m "chore: refresh GoodReads shelves [skip ci]"
             git pull --rebase origin main
-            git push --force-with-lease origin main
+            git push
           }
