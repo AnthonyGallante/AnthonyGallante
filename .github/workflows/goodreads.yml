@@ -38,5 +38,5 @@ jobs:
             git add README.md
             git commit -m "chore: refresh GoodReads shelves [skip ci]"
             git pull --rebase origin main
-            git push origin main
+            git push --force-with-lease origin main
           }
