@@ -17,3 +17,15 @@
 <br>
 <br>
 
+Currently Reading
+
+<!-- GOODREADS-CURRENTLY-READING:START -->
+Loading...
+
+<!-- GOODREADS-CURRENTLY-READING:END -->
+Recently Finished
+
+<!-- GOODREADS-READ:START -->
+Loading...
+
+<!-- GOODREADS-READ:END -->
