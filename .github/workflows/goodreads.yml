@@ -6,7 +6,7 @@ on:
   workflow_dispatch:          # also runnable manually from the Actions tab
 
 concurrency:
-  group: goodreads-shelves    # prevent two runs colliding on the same branch
+  group: goodreads-update
   cancel-in-progress: true
 
 jobs:
