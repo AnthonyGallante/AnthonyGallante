@@ -10,8 +10,8 @@
 <br>
 <div align="center">
   <picture>
-    <source media="(min-width: 1200px)" srcset="https://github.com/user-attachments/assets/8161dddb-f370-4438-a81d-5a43f827085f" height="120">
-    <source media="(min-width: 800px)" srcset="https://github.com/user-attachments/assets/5ccf6820-d081-43e0-b270-7acde78a2031" height="120">
+    <source media="(min-width: 1225px)" srcset="https://github.com/user-attachments/assets/8161dddb-f370-4438-a81d-5a43f827085f" height="120">
+    <source media="(min-width: 900px)" srcset="https://github.com/user-attachments/assets/5ccf6820-d081-43e0-b270-7acde78a2031" height="120">
     <img src="https://github.com/user-attachments/assets/8a25f680-fbb9-459a-ac36-10f2827541e7" alt="pac-man scene" height="120">
   </picture>
 </div>
