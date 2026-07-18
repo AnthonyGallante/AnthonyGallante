@@ -22,7 +22,6 @@ Currently Reading
 <!-- GOODREADS-CURRENTLY-READING:START -->
 | Book | Author |
 | ---- | ------ |
-| [The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk and Luck](https://www.goodreads.com/review/show/8725982403?utm_medium=api&utm_source=rss) | David Spiegelhalter |
 | [Demystifying Climate Models: A Users Guide to Earth System Models (Earth Systems Data and Models Book 2)](https://www.goodreads.com/review/show/8196745202?utm_medium=api&utm_source=rss) | Andrew Gettelman |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
@@ -30,11 +29,11 @@ Recently Finished
 <!-- GOODREADS-READ:START -->
 | Book | Author | Rating |
 | ---- | ------ | ------ |
+| [The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk and Luck](https://www.goodreads.com/review/show/8725982403?utm_medium=api&utm_source=rss) | David Spiegelhalter | ⭐⭐⭐⭐ |
 | [How the Universe Got Its Spots: Diary of a Finite Time in a Finite Space](https://www.goodreads.com/review/show/8632818791?utm_medium=api&utm_source=rss) | Janna Levin | ⭐⭐⭐⭐ |
 | [The Princess Bride](https://www.goodreads.com/review/show/8629163343?utm_medium=api&utm_source=rss) | William Goldman | ⭐⭐⭐⭐ |
 | [The Greatest Show on Earth: The Evidence for Evolution](https://www.goodreads.com/review/show/8541178890?utm_medium=api&utm_source=rss) | Richard Dawkins | ⭐⭐⭐⭐⭐ |
 | [The Demon in the Machine: How Hidden Webs of Information Are Solving the Mystery of Life](https://www.goodreads.com/review/show/8490900769?utm_medium=api&utm_source=rss) | Paul C.W. Davies | ⭐⭐⭐⭐ |
-| [A Promised Land](https://www.goodreads.com/review/show/8385589097?utm_medium=api&utm_source=rss) | Barack Obama | ⭐⭐⭐⭐⭐ |
 <!-- GOODREADS-READ:END -->
 
 <div align="center">
