@@ -22,7 +22,7 @@ Currently Reading
 <!-- GOODREADS-CURRENTLY-READING:START -->
 | Book | Author |
 | ---- | ------ |
-| [Demystifying Climate Models: A Users Guide to Earth System Models (Earth Systems Data and Models Book 2)](https://www.goodreads.com/review/show/8196745202?utm_medium=api&utm_source=rss) | Andrew Gettelman |
+| [Regime Change: Inside the Imperial Presidency of Donald Trump](https://www.goodreads.com/review/show/8797353748?utm_medium=api&utm_source=rss) | Maggie Haberman |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
