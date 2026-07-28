@@ -36,6 +36,6 @@ Recently Finished
 | [The Demon in the Machine: How Hidden Webs of Information Are Solving the Mystery of Life](https://www.goodreads.com/review/show/8490900769?utm_medium=api&utm_source=rss) | Paul C.W. Davies | ⭐⭐⭐⭐ |
 <!-- GOODREADS-READ:END -->
 
-<div align="center">
+<!-- <div align="center">
   <img width="480" height="167" alt="8-BitLoveGIFbyPAC-MAN1-ezgif com-crop (1)" src="https://github.com/user-attachments/assets/4ada17af-29f9-47b6-addf-923a22e49443" />
-</div>
+</div> -->
