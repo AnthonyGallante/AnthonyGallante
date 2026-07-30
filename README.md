@@ -15,8 +15,6 @@
 <br>
 <br> -->
 
-[![Goodreads](https://img.shields.io/badge/Goodreads-Profile-E4B258?style=for-the-badge&logo=goodreads&logoColor=white)](https://www.goodreads.com/user/show/140019807-anthony-gallante)
-
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
@@ -35,6 +33,8 @@ Recently Finished
 | [The Greatest Show on Earth: The Evidence for Evolution](https://www.goodreads.com/review/show/8541178890?utm_medium=api&utm_source=rss) | Richard Dawkins | ⭐⭐⭐⭐⭐ |
 | [The Demon in the Machine: How Hidden Webs of Information Are Solving the Mystery of Life](https://www.goodreads.com/review/show/8490900769?utm_medium=api&utm_source=rss) | Paul C.W. Davies | ⭐⭐⭐⭐ |
 <!-- GOODREADS-READ:END -->
+
+[![Goodreads](https://img.shields.io/badge/Goodreads-Profile-E4B258?style=for-the-badge&logo=goodreads&logoColor=white)](https://www.goodreads.com/user/show/140019807-anthony-gallante)
 
 <!-- <div align="center">
   <img width="480" height="167" alt="8-BitLoveGIFbyPAC-MAN1-ezgif com-crop (1)" src="https://github.com/user-attachments/assets/4ada17af-29f9-47b6-addf-923a22e49443" />
