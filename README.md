@@ -1,19 +1,7 @@
-
+<!-- PACMAN CHASED BY GHOSTS -->
 <div align="center">
   <img width="480" height="167" alt="8-BitLoveGIFbyPAC-MAN-ezgif com-crop" src="https://github.com/user-attachments/assets/6dce4525-051b-4931-94c5-534ea4a5bd5a" />
 </div>
-
-<!-- <br>
-<br>
-<div align="center">
-  <picture>
-    <source media="(min-width: 1225px)" srcset="https://github.com/user-attachments/assets/8161dddb-f370-4438-a81d-5a43f827085f" height="120">
-    <source media="(min-width: 900px)" srcset="https://github.com/user-attachments/assets/e5eb3ac9-b2a5-4bfa-ab7d-defa2f404dff" height="120">
-    <img src="https://github.com/user-attachments/assets/8a25f680-fbb9-459a-ac36-10f2827541e7" alt="pac-man scene" height="120">
-  </picture>
-</div>
-<br>
-<br> -->
 
 Currently Reading
 
@@ -34,10 +22,15 @@ Recently Finished
 | [The Demon in the Machine: How Hidden Webs of Information Are Solving the Mystery of Life](https://www.goodreads.com/review/show/8490900769?utm_medium=api&utm_source=rss) | Paul C.W. Davies | ⭐⭐⭐⭐ |
 <!-- GOODREADS-READ:END -->
 
+<!-- GOODREADS BADGE -->
 [![Goodreads](https://img.shields.io/badge/Goodreads-Profile-E4B258?style=for-the-badge&logo=goodreads&logoColor=white)](https://www.goodreads.com/user/show/140019807-anthony-gallante)
 
-<a href="https://www.buymeacoffee.com/anthonygallante" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<!-- BUY ME A COFFEE BUTTON -->
+<a href="https://www.buymeacoffee.com/anthonygallante" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
 
+<!-- PACMAN CHASING GHOSTS -->
 <!-- <div align="center">
   <img width="480" height="167" alt="8-BitLoveGIFbyPAC-MAN1-ezgif com-crop (1)" src="https://github.com/user-attachments/assets/4ada17af-29f9-47b6-addf-923a22e49443" />
 </div> -->
