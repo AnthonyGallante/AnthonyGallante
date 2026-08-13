@@ -6,7 +6,9 @@
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
-_Nothing on the shelf right now._
+| Book | Author |
+| ---- | ------ |
+| [The Road to Tender Hearts](https://www.goodreads.com/review/show/8819449161?utm_medium=api&utm_source=rss) | Annie  Hartnett |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
