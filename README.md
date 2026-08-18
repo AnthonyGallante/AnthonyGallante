@@ -6,7 +6,9 @@
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
-_Nothing on the shelf right now._
+| Book | Author |
+| ---- | ------ |
+| [The Reverse Centaur's Guide to Life After AI](https://www.goodreads.com/review/show/8868543835?utm_medium=api&utm_source=rss) | Cory Doctorow |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
