@@ -8,6 +8,8 @@ Currently Reading
 <!-- GOODREADS-CURRENTLY-READING:START -->
 | Book | Author |
 | ---- | ------ |
+| [Fantastic Mr. Fox](https://www.goodreads.com/review/show/8884209095?utm_medium=api&utm_source=rss) | Roald Dahl |
+| [Blood, Sweat, and Pixels](https://www.goodreads.com/review/show/6258015745?utm_medium=api&utm_source=rss) | Jason Schreier |
 | [The Reverse Centaur's Guide to Life After AI](https://www.goodreads.com/review/show/8868543835?utm_medium=api&utm_source=rss) | Cory Doctorow |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
