@@ -8,6 +8,7 @@ Currently Reading
 <!-- GOODREADS-CURRENTLY-READING:START -->
 | Book | Author |
 | ---- | ------ |
+| [The Proof in the Code: How a Truth Machine Is Transforming Math and AI](https://www.goodreads.com/review/show/8888504364?utm_medium=api&utm_source=rss) | Kevin Hartnett |
 | [Blood, Sweat, and Pixels](https://www.goodreads.com/review/show/6258015745?utm_medium=api&utm_source=rss) | Jason Schreier |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
