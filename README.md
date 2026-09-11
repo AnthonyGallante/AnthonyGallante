@@ -6,20 +6,18 @@
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
-| Book | Author |
-| ---- | ------ |
-| [The Proof in the Code: How a Truth Machine Is Transforming Math and AI](https://www.goodreads.com/review/show/8888504364?utm_medium=api&utm_source=rss) | Kevin Hartnett |
+_Nothing on the shelf right now._
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
 <!-- GOODREADS-READ:START -->
 | Book | Author | Rating |
 | ---- | ------ | ------ |
+| [The Proof in the Code: How a Truth Machine Is Transforming Math and AI](https://www.goodreads.com/review/show/8888504364?utm_medium=api&utm_source=rss) | Kevin Hartnett | ⭐⭐⭐⭐ |
 | [Blood, Sweat, and Pixels](https://www.goodreads.com/review/show/6258015745?utm_medium=api&utm_source=rss) | Jason Schreier | ⭐⭐⭐ |
 | [The Reverse Centaur's Guide to Life After AI](https://www.goodreads.com/review/show/8868543835?utm_medium=api&utm_source=rss) | Cory Doctorow | ⭐⭐⭐⭐ |
 | [Fantastic Mr. Fox](https://www.goodreads.com/review/show/8884209095?utm_medium=api&utm_source=rss) | Roald Dahl | ⭐⭐⭐ |
 | [The Road to Tender Hearts](https://www.goodreads.com/review/show/8819449161?utm_medium=api&utm_source=rss) | Annie  Hartnett | ⭐⭐⭐⭐⭐ |
-| [Regime Change: Inside the Imperial Presidency of Donald Trump](https://www.goodreads.com/review/show/8797353748?utm_medium=api&utm_source=rss) | Maggie Haberman | ⭐⭐⭐⭐ |
 <!-- GOODREADS-READ:END -->
 
 <!-- GOODREADS BADGE -->
