@@ -6,7 +6,9 @@
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
-_Nothing on the shelf right now._
+| Book | Author |
+| ---- | ------ |
+| [I Am a Strange Loop](https://www.goodreads.com/review/show/7751289064?utm_medium=api&utm_source=rss) | Douglas R. Hofstadter |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
