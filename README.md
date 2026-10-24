@@ -6,7 +6,9 @@
 Currently Reading
 
 <!-- GOODREADS-CURRENTLY-READING:START -->
-_Nothing on the shelf right now._
+| Book | Author |
+| ---- | ------ |
+| [The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence](https://www.goodreads.com/review/show/9049486060?utm_medium=api&utm_source=rss) | Kevin Roose |
 <!-- GOODREADS-CURRENTLY-READING:END -->
 Recently Finished
 
