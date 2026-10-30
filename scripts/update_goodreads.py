@@ -102,19 +102,28 @@ def patch_readme(marker, content):
 # ── main ─────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    failures = 0
+
     print("→ currently-reading shelf")
-    currently = parse_items(fetch_rss("currently-reading", limit=10))
-    print(f"  {len(currently)} book(s) found")
+    try:
+        currently = parse_items(fetch_rss("currently-reading", limit=10))
+        patch_readme("GOODREADS-CURRENTLY-READING", render_currently_reading(currently))
+    except Exception as e:
+        failures += 1
+        print(f"  ✗ skipped: {e}")
 
     print("→ read shelf")
-    # sort=date_read in the URL asks GoodReads to order by read date server-side;
-    # sort_by_read_date=True re-sorts on our end as a fallback using user_read_at.
-    finished = parse_items(
-        fetch_rss("read", limit=10, sort="date_read"),
-        sort_by_read_date=True,
-    )
-    finished = finished[:5]   # keep only the 5 most recent after sorting
-    print(f"  {len(finished)} book(s) found")
+    try:
+        finished = parse_items(
+            fetch_rss("read", limit=10, sort="date_read"),
+            sort_by_read_date=True,
+        )[:5]
+        patch_readme("GOODREADS-READ", render_recently_finished(finished))
+    except Exception as e:
+        failures += 1
+        print(f"  ✗ skipped: {e}")
+
+    raise SystemExit(1 if failures == 2 else 0)
 
     patch_readme("GOODREADS-CURRENTLY-READING", render_currently_reading(currently))
     patch_readme("GOODREADS-READ",              render_recently_finished(finished))
